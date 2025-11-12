@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Mario</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+    }
+
+    table {
+      width: 100%;
+      background-color: #000000;
+      color: white;
+    }
+
+    th {
+      padding: 1rem;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    td {
+      text-align: center;
+      padding-bottom: 1rem;
+    }
+
+    td a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    article {
+      background-color: white;
+      padding: 1rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    article img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 8px;
+    }
+
+    article h3 {
+      margin: 1rem 0 0.5rem;
+    }
+
+    p {
+      margin: 0.5rem 0;
+    }
+
+    .precio {
+      color: green;
+      font-weight: bold;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 0.5rem 1rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #000000;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <table>
+      <tr>
+        <th><img src="/home/usuario/Escritorio/imagen/logo.jpg" width="80" height="80"></th>
+        <th>Concesionario León</th>
+      </tr>
+      <tr>
+        <td><a href="/home/usuario/Escritorio/Lenguaje de marcas/Proyecto/index.html">Inicio</a></td>
+        <td><a href="#">Productos</a></td>
+        <td><a href="Contacto.html">Contacto</a></td>
+      </tr>
+    </table>
+  </header>
+
+  <main>
+    <h2>Nuestros Productos</h2>
+    <section>
+      <article>
+        <figure>
+          <img src="/home/usuario/Escritorio/imagen/mustang.jpg" alt="Producto 1">
+        </figure>
+        <h3>Ford - Mustang Shelby GT500</h3>
+        <p class="precio">$49.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+      <article>
+        <figure>
+          <img src="/home/usuario/Escritorio/imagen/suzuki.jpg" alt="Producto 2">
+        </figure>
+        <h3>Suzuki S-Cross</h3>
+        <p class="precio">$24.800</p>
+        <button>Agregar al carrito</button>
+      </article>
+      <article>
+        <figure>
+          <img src="/home/usuario/Escritorio/imagen/peugeot.jpg" alt="Producto 3">
+        </figure>
+        <h3>Peugeot 3008</h3>
+        <p class="precio">$30.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+	  <article>
+        <figure>
+          <img src="/home/usuario/Escritorio/imagen/mercedes.jpg" alt="Producto 4">
+        </figure>
+        <h3>Mercedes GLC COUPE</h3>
+        <p class="precio">$41.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+	  <article>
+        <figure>
+          <img src="/home/usuario/Escritorio/imagen/KIA.jpeg" alt="Producto 5">
+        </figure>
+        <h3>KIA XCeed</h3>
+        <p class="precio">$17.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+	  <article>
+        <figure>
+          <img src="/home/usuario/Escritorio/imagen/glc-coupe.jpg" alt="Producto 6">
+        </figure>
+        <h3>Mercedes GLC COUPE</h3>
+        <p class="precio">$53.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+	  <article>
+        <figure>
+          <img src="/home/usuario/Escritorio/imagen/audi.jpeg" alt="Producto 7">
+        </figure>
+        <h3>Audi Q5</h3>
+        <p class="precio">$35.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+	  <article>
+        <figure>
+          <img src="/home/usuario/Escritorio/imagen/Mercedes-a.jpg" alt="Producto 8">
+        </figure>
+        <h3>Mercedes Clase A</h3>
+        <p class="precio">$23.000</p>
+        <button>Agregar al carrito</button>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Tienda Online. Todos los derechos reservados.
+  </footer>
+
+</body>
+</html>
