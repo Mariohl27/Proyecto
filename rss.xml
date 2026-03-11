@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<rss version="2.0">
+  <channel>
+    <title>Novedades de nuestro Concesionario</title>
+    <link>https://mariohl27.github.io/Proyecto/index.html/</link>
+    <description>Descubre las últimas ofertas, llegada de nuevos vehículos y noticias de nuestro concesionario multimarca.</description>
+    
+    <item>
+      <title>¡Mira nuestros nuevos modelos!</title>
+      <link>https://mariohl27.github.io/Proyecto/pages/Productos.html</link>
+      <description>Ya tenemos en exposición el nuevo modelo SUV con etiqueta ECO. Ven a pedir tu prueba de conducción este fin de semana y llévatelo con un descuento especial de lanzamiento.</description>
+    </item>
+
+    <item>
+      <title>Gran Feria de Vehículos de Ocasión: Descuentos de hasta el 20%</title>
+      <link>https://mariohl27.github.io/Proyecto/pages/Productos.html</link>
+      <description>Del 15 al 20 de este mes liquidamos nuestro stock de vehículos de segunda mano. Todos revisados, garantizados y con entrega inmediata.</description>
+    </item>
+  </channel>
+</rss>
