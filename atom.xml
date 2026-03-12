@@ -1,28 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://mariohl27.github.io/Proyecto/index.html/</id>
   <title>Novedades de nuestro Concesionario</title>
-  <link rel="alternate" type="text/html" href="https://mariohl27.github.io/Proyecto/index.html"/>
+  <subtitle>Descubre las últimas ofertas, llegada de nuevos vehículos y noticias de nuestro concesionario multimarca.</subtitle>
+  <updated>2026-03-12T12:00:00Z</updated>
+  
+  <link rel="alternate" type="text/html" href="https://mariohl27.github.io/Proyecto/index.html/"/>
   <link rel="self" type="application/atom+xml" href="https://mariohl27.github.io/Proyecto/atom.xml"/>
-  <updated>2026-03-11T12:00:00Z</updated>
+  
   <author>
     <name>Mario Henares León</name>
-    <email>helema_aliesma@iesmedinaazahara.es</email>
   </author>
-  <id>https://mariohl27.github.io/Proyecto/index.html</id>
 
   <entry>
-    <title>¡Acaba de llegar el nuevo modelo SUV híbrido!</title>
-    <link rel="alternate" type="text/html" href="https://mariohl27.github.io/Proyecto/pages/Productos.html#suv"/>
-    <id>https://mariohl27.github.io/Proyecto/pages/Productos.html#suv</id>
-    <updated>2026-03-11T12:00:00Z</updated>
-    <summary>Ya tenemos en exposición el nuevo modelo SUV con etiqueta ECO. Ven a pedir tu prueba de conducción este fin de semana.</summary>
+    <id>https://mariohl27.github.io/Proyecto/pages/Productos.html</id>
+    <title>¡Mira nuestros nuevos modelos!</title>
+    <updated>2026-03-12T12:00:00Z</updated>
+    <summary>Ya tenemos en exposición el nuevo modelo SUV con etiqueta ECO. Ven a pedir tu prueba de conducción este fin de semana y llévatelo con un descuento especial de lanzamiento.</summary>
+    <link rel="alternate" type="text/html" href="https://mariohl27.github.io/Proyecto/pages/Productos.html"/>
   </entry>
 
   <entry>
-    <title>Gran Feria de Vehículos de Ocasión</title>
-    <id>https://mariohl27.github.io/Proyecto/pages/Productos.html#feria</id>
-    <updated>2026-03-10T09:30:00Z</updated>
-    <summary>Del 15 al 20 de este mes liquidamos nuestro stock de vehículos de segunda mano con descuentos de hasta el 20%.</summary>
+    <id>https://mariohl27.github.io/Proyecto/pages/contacto.html</id>
+    <title>Gran Feria de Vehículos de Ocasión: Descuentos de hasta el 20%</title>
+    <updated>2026-03-11T09:30:00Z</updated>
+    <summary>Del 15 al 20 de este mes liquidamos nuestro stock de vehículos de segunda mano. Todos revisados, garantizados y con entrega inmediata.</summary>
+    <link rel="alternate" type="text/html" href="https://mariohl27.github.io/Proyecto/pages/contacto.html"/>
   </entry>
 
 </feed>
