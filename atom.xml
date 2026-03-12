@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://mariohl27.github.io/Proyecto/index.html">
   <title>Novedades de nuestro Concesionario</title>
   <link rel="alternate" type="text/html" href="https://mariohl27.github.io/Proyecto/index.html"/>
   <link rel="self" type="application/atom+xml" href="https://mariohl27.github.io/Proyecto/atom.xml"/>
@@ -24,4 +24,5 @@
     <updated>2026-03-10T09:30:00Z</updated>
     <summary>Del 15 al 20 de este mes liquidamos nuestro stock de vehículos de segunda mano con descuentos de hasta el 20%.</summary>
   </entry>
+
 </feed>
